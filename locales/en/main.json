@@ -1,0 +1,34 @@
+{
+  "i18nDemo": {
+    "title": "ComfyUI I18n Demo",
+    "version": "1.0.0",
+    "description": "A demonstration of internationalization (i18n) support for ComfyUI custom nodes",
+    "categories": {
+      "i18n": "I18n Demo"
+    },
+    "messages": {
+      "nodeLoaded": "I18n demo nodes loaded successfully",
+      "processingText": "Processing text..."
+    },
+    "settings": {
+      "title": "I18n Demo Settings",
+      "description": "Configure i18n demo node behavior and preferences",
+      "enableDebugMode": "Enable Debug Mode",
+      "enableDebugModeTooltip": "Show debug information in console for i18n demo nodes",
+      "defaultTextOperation": "Default Text Operation", 
+      "defaultTextOperationTooltip": "Default operation for text processor node",
+      "options": {
+        "textOperations": {
+          "uppercase": "Uppercase",
+          "lowercase": "Lowercase", 
+          "reverse": "Reverse",
+          "add_prefix": "Add Prefix"
+        },
+        "languages": {
+          "en": "English",
+          "zh": "Chinese"
+        }
+      }
+    }
+  }
+}

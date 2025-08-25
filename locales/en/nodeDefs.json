@@ -1,0 +1,25 @@
+{
+  "I18nTextProcessor": {
+    "display_name": "I18n Text Processor",
+    "description": "A simple i18n demo node that demonstrates text processing with internationalization support",
+    "inputs": {
+      "text": {
+        "name": "Text Input"
+      },
+      "operation": {
+        "name": "Operation"
+      },
+      "count": {
+        "name": "Repeat Count"
+      },
+      "prefix": {
+        "name": "Prefix Text"
+      }
+    },
+    "outputs": {
+      "processed_text": {
+        "name": "Processed Text"
+      }
+    }
+  }
+}

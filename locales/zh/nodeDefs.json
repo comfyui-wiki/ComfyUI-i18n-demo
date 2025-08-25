@@ -1,0 +1,25 @@
+{
+  "I18nTextProcessor": {
+    "display_name": "国际化文本处理器",
+    "description": "一个简单的国际化演示节点，展示支持国际化的文本处理",
+    "inputs": {
+      "text": {
+        "name": "文本输入"
+      },
+      "operation": {
+        "name": "操作"
+      },
+      "count": {
+        "name": "重复次数"
+      },
+      "prefix": {
+        "name": "前缀文本"
+      }
+    },
+    "outputs": {
+      "processed_text": {
+        "name": "处理后文本"
+      }
+    }
+  }
+}
