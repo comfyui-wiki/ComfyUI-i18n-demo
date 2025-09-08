@@ -1,0 +1,16 @@
+{
+  "I18nDemo_EnableDebugMode": {
+    "name": "디버그 모드 활성화",
+    "tooltip": "콘솔에 국제화 데모 노드의 디버그 정보를 표시합니다"
+  },
+  "I18nDemo_DefaultTextOperation": {
+    "name": "기본 텍스트 작업",
+    "tooltip": "텍스트 처리 노드의 기본 작업",
+    "options": {
+      "uppercase": "대문자",
+      "lowercase": "소문자",
+      "reverse": "뒤집기",
+      "add_prefix": "접두사 추가"
+    }
+  }
+}

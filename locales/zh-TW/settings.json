@@ -1,0 +1,16 @@
+{
+  "I18nDemo_EnableDebugMode": {
+    "name": "啟用除錯模式",
+    "tooltip": "在主控台顯示國際化演示節點的除錯資訊"
+  },
+  "I18nDemo_DefaultTextOperation": {
+    "name": "預設文字操作",
+    "tooltip": "文字處理節點的預設操作",
+    "options": {
+      "uppercase": "大寫",
+      "lowercase": "小寫",
+      "reverse": "反轉",
+      "add_prefix": "添加前綴"
+    }
+  }
+}

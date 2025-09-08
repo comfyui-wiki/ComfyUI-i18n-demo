@@ -1,0 +1,16 @@
+{
+  "I18nDemo_EnableDebugMode": {
+    "name": "Activer le mode débogage",
+    "tooltip": "Afficher les informations de débogage dans la console pour les nœuds de démonstration i18n"
+  },
+  "I18nDemo_DefaultTextOperation": {
+    "name": "Opération de texte par défaut",
+    "tooltip": "Opération par défaut pour le nœud processeur de texte",
+    "options": {
+      "uppercase": "Majuscules",
+      "lowercase": "Minuscules",
+      "reverse": "Inverser",
+      "add_prefix": "Ajouter un préfixe"
+    }
+  }
+}

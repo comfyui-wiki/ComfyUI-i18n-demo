@@ -1,0 +1,16 @@
+{
+  "I18nDemo_EnableDebugMode": {
+    "name": "Activar modo de depuración",
+    "tooltip": "Mostrar información de depuración en la consola para los nodos de demostración de i18n"
+  },
+  "I18nDemo_DefaultTextOperation": {
+    "name": "Operación de texto predeterminada",
+    "tooltip": "Operación predeterminada para el nodo procesador de texto",
+    "options": {
+      "uppercase": "Mayúsculas",
+      "lowercase": "Minúsculas",
+      "reverse": "Invertir",
+      "add_prefix": "Agregar prefijo"
+    }
+  }
+}

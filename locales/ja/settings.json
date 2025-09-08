@@ -1,0 +1,16 @@
+{
+  "I18nDemo_EnableDebugMode": {
+    "name": "デバッグモードを有効にする",
+    "tooltip": "i18nデモノードのデバッグ情報をコンソールに表示します"
+  },
+  "I18nDemo_DefaultTextOperation": {
+    "name": "デフォルトテキスト操作",
+    "tooltip": "テキストプロセッサノードのデフォルト操作",
+    "options": {
+      "uppercase": "大文字",
+      "lowercase": "小文字",
+      "reverse": "反転",
+      "add_prefix": "接頭辞追加"
+    }
+  }
+}

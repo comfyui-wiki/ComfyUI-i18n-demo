@@ -1,0 +1,36 @@
+{
+  "I18nTextProcessor": {
+    "display_name": "Processeur de texte I18n",
+    "description": "Un simple nœud de démonstration i18n qui montre le traitement de texte avec prise en charge de l'internationalisation",
+    "inputs": {
+      "text": {
+        "name": "Entrée de texte",
+        "tooltip": "Le contenu textuel original à traiter"
+      },
+      "operation": {
+        "name": "Opération",
+        "tooltip": "L'opération de traitement de texte à exécuter",
+        "options": {
+          "uppercase": "Majuscules",
+          "lowercase": "Minuscules",
+          "reverse": "Inverser",
+          "add_prefix": "Ajouter un préfixe"
+        }
+      },
+      "count": {
+        "name": "Nombre de répétitions",
+        "tooltip": "Le nombre de fois que l'opération doit être répétée"
+      },
+      "prefix": {
+        "name": "Texte du préfixe",
+        "tooltip": "Le préfixe à ajouter au texte"
+      }
+    },
+    "outputs": {
+      "0": {
+        "name": "Texte traité",
+        "tooltip": "Le résultat final du texte traité"
+      }
+    }
+  }
+}

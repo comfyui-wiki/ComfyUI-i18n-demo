@@ -1,0 +1,36 @@
+{
+  "I18nTextProcessor": {
+    "display_name": "Procesador de Texto I18n",
+    "description": "Un nodo de demostración i18n simple que muestra el procesamiento de texto con soporte de internacionalización",
+    "inputs": {
+      "text": {
+        "name": "Entrada de Texto",
+        "tooltip": "El contenido de texto original a procesar"
+      },
+      "operation": {
+        "name": "Operación",
+        "tooltip": "La operación de procesamiento de texto a ejecutar",
+        "options": {
+          "uppercase": "Mayúsculas",
+          "lowercase": "Minúsculas",
+          "reverse": "Invertir",
+          "add_prefix": "Agregar Prefijo"
+        }
+      },
+      "count": {
+        "name": "Cantidad de Repeticiones",
+        "tooltip": "El número de veces que se repetirá la operación"
+      },
+      "prefix": {
+        "name": "Texto de Prefijo",
+        "tooltip": "El prefijo que se agregará al texto"
+      }
+    },
+    "outputs": {
+      "0": {
+        "name": "Texto Procesado",
+        "tooltip": "El resultado final del texto procesado"
+      }
+    }
+  }
+}

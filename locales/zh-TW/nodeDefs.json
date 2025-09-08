@@ -1,0 +1,36 @@
+{
+  "I18nTextProcessor": {
+    "display_name": "國際化文本處理器",
+    "description": "一個簡單的國際化演示節點，展示支援國際化的文本處理功能",
+    "inputs": {
+      "text": {
+        "name": "文本輸入",
+        "tooltip": "待處理的原始文本內容"
+      },
+      "operation": {
+        "name": "操作類型",
+        "tooltip": "要執行的文本處理操作",
+        "options": {
+          "uppercase": "轉為大寫",
+          "lowercase": "轉為小寫",
+          "reverse": "反轉文本",
+          "add_prefix": "添加前綴"
+        }
+      },
+      "count": {
+        "name": "重複次數",
+        "tooltip": "操作重複執行的次數"
+      },
+      "prefix": {
+        "name": "前綴文本",
+        "tooltip": "要添加到文本前的前綴"
+      }
+    },
+    "outputs": {
+      "0": {
+        "name": "處理後文本",
+        "tooltip": "最終處理後的文本結果"
+      }
+    }
+  }
+}

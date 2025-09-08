@@ -1,0 +1,36 @@
+{
+  "I18nTextProcessor": {
+    "display_name": "국제화 텍스트 프로세서",
+    "description": "간단한 국제화 데모 노드로, 국제화가 지원되는 텍스트 처리를 보여줍니다.",
+    "inputs": {
+      "text": {
+        "name": "텍스트 입력",
+        "tooltip": "처리할 원본 텍스트 내용"
+      },
+      "operation": {
+        "name": "작업",
+        "tooltip": "수행할 텍스트 처리 작업",
+        "options": {
+          "uppercase": "대문자",
+          "lowercase": "소문자",
+          "reverse": "뒤집기",
+          "add_prefix": "접두사 추가"
+        }
+      },
+      "count": {
+        "name": "반복 횟수",
+        "tooltip": "작업을 반복 실행할 횟수"
+      },
+      "prefix": {
+        "name": "접두사 텍스트",
+        "tooltip": "텍스트 앞에 추가할 접두사"
+      }
+    },
+    "outputs": {
+      "0": {
+        "name": "처리된 텍스트",
+        "tooltip": "처리된 최종 텍스트 결과"
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "settingsCategories": {
+    "I18nDemo": "Демо I18n",
+    "DebugMode": "Режим отладки",
+    "DefaultTextOperation": "Операция по умолчанию для текста"
+  }
+}

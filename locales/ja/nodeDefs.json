@@ -1,0 +1,36 @@
+{
+  "I18nTextProcessor": {
+    "display_name": "国際化テキストプロセッサ",
+    "description": "国際化対応のテキスト処理を示すシンプルなデモノードです。",
+    "inputs": {
+      "text": {
+        "name": "テキスト入力",
+        "tooltip": "処理する元のテキスト内容"
+      },
+      "operation": {
+        "name": "操作",
+        "tooltip": "実行するテキスト処理操作",
+        "options": {
+          "uppercase": "大文字",
+          "lowercase": "小文字",
+          "reverse": "反転",
+          "add_prefix": "接頭辞追加"
+        }
+      },
+      "count": {
+        "name": "繰り返し回数",
+        "tooltip": "操作を繰り返す回数"
+      },
+      "prefix": {
+        "name": "接頭辞テキスト",
+        "tooltip": "テキストの先頭に追加する接頭辞"
+      }
+    },
+    "outputs": {
+      "0": {
+        "name": "処理済みテキスト",
+        "tooltip": "最終的に処理されたテキスト結果"
+      }
+    }
+  }
+}
