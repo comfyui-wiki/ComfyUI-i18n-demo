@@ -1,9 +1,9 @@
 {
-  "Comfy_Frontend_I18nDemo_EnableDebugMode": {
+  "I18nDemo_EnableDebugMode": {
     "name": "启用调试模式",
     "tooltip": "在控制台显示国际化演示节点的调试信息"
   },
-  "Comfy_Frontend_I18nDemo_DefaultTextOperation": {
+  "I18nDemo_DefaultTextOperation": {
     "name": "默认文本操作",
     "tooltip": "文本处理节点的默认操作",
     "options": {

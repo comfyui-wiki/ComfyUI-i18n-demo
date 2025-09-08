@@ -1,9 +1,9 @@
 {
-  "Comfy_Frontend_I18nDemo_EnableDebugMode": {
+  "I18nDemo_EnableDebugMode": {
     "name": "Enable Debug Mode",
     "tooltip": "Show debug information in console for i18n demo nodes"
   },
-  "Comfy_Frontend_I18nDemo_DefaultTextOperation": {
+  "I18nDemo_DefaultTextOperation": {
     "name": "Default Text Operation",
     "tooltip": "Default operation for text processor node",
     "options": {
