@@ -1,0 +1,14 @@
+{
+  "i18n-demo.duplicate-with-translation": {
+    "label": "复制并翻译",
+    "tooltip": "复制选中的节点并添加翻译支持"
+  },
+  "i18n-demo.show-node-info": {
+    "label": "显示节点信息",
+    "tooltip": "显示选中节点的详细信息"
+  },
+  "i18n-demo.confirm-action": {
+    "label": "确认操作",
+    "tooltip": "确认执行当前操作"
+  }
+}

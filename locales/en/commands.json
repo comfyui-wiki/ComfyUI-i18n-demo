@@ -1,0 +1,14 @@
+{
+  "i18n-demo_duplicate-with-translation": {
+    "label": "Duplicate with Translation",
+    "tooltip": "Duplicate selected nodes with translation support"
+  },
+  "i18n-demo_show-node-info": {
+    "label": "Show Node Info",
+    "tooltip": "Display detailed information about selected nodes"
+  },
+  "i18n-demo_confirm-action": {
+    "label": "Confirm Action",
+    "tooltip": "Confirm execution of current action"
+  }
+}

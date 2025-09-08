@@ -5,22 +5,26 @@ class I18nTextProcessor:
             "required": {
                 "text": ("STRING", {
                     "multiline": True,
-                    "default": "Hello World!"
+                    "default": "Hello World!",
+                    "tooltip": "The original text content to be processed"
                 }),
                 "operation": (["uppercase", "lowercase", "reverse", "add_prefix"], {
-                    "default": "uppercase"
+                    "default": "uppercase",
+                    "tooltip": "The text processing operation to be executed"
                 }),
                 "count": ("INT", {
                     "default": 1,
                     "min": 1,
                     "max": 10,
-                    "step": 1
+                    "step": 1,
+                    "tooltip": "The number of times to repeat the operation"
                 }),
             },
             "optional": {
                 "prefix": ("STRING", {
                     "default": "[I18N] ",
-                    "multiline": False
+                    "multiline": False,
+                    "tooltip": "The prefix to add to the text"
                 }),
             }
         }

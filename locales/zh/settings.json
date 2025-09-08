@@ -1,18 +1,16 @@
 {
-  "I18nDemo.Settings": {
-    "name": "国际化演示设置",
-    "tooltip": "配置国际化演示节点行为"
-  },
-  "I18nDemo.EnableDebugMode": {
+  "Comfy_Frontend_I18nDemo_EnableDebugMode": {
     "name": "启用调试模式",
-    "tooltip": "在控制台显示调试信息"
+    "tooltip": "在控制台显示国际化演示节点的调试信息"
   },
-  "I18nDemo.DefaultTextOperation": {
+  "Comfy_Frontend_I18nDemo_DefaultTextOperation": {
     "name": "默认文本操作",
-    "tooltip": "文本处理器节点的默认操作"
-  },
-  "I18nDemo.Language": {
-    "name": "国际化演示语言",
-    "tooltip": "国际化演示节点消息的语言"
+    "tooltip": "文本处理节点的默认操作",
+    "options": {
+      "uppercase": "大写",
+      "lowercase": "小写",
+      "reverse": "反转",
+      "add_prefix": "添加前缀"
+    }
   }
 }

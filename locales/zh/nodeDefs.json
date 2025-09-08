@@ -4,21 +4,32 @@
     "description": "一个简单的国际化演示节点，展示支持国际化的文本处理",
     "inputs": {
       "text": {
-        "name": "文本输入"
+        "name": "文本输入",
+        "tooltip": "要处理的原始文本内容"
       },
       "operation": {
-        "name": "操作"
+        "name": "操作",
+        "tooltip": "要执行的文本处理操作",
+        "options": {
+          "uppercase": "大写",
+          "lowercase": "小写",
+          "reverse": "反转",
+          "add_prefix": "添加前缀"
+        }
       },
       "count": {
-        "name": "重复次数"
+        "name": "重复次数",
+        "tooltip": "重复执行操作的次数"
       },
       "prefix": {
-        "name": "前缀文本"
+        "name": "前缀文本",
+        "tooltip": "要添加到文本前面的前缀"
       }
     },
     "outputs": {
-      "processed_text": {
-        "name": "处理后文本"
+      "0": {
+        "name": "处理后文本",
+        "tooltip": "经过处理的最终文本结果"
       }
     }
   }

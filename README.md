@@ -19,14 +19,20 @@ This package provides a minimal example of internationalization implementation:
 
 ## Internationalization Support
 
-This package demonstrates proper internationalization (i18n) implementation:
+This package demonstrates proper internationalization (i18n) implementation with **menu and settings support**:
 
 - **Supported Languages**: English (en), Chinese (zh)
 - **Translation Files**: Located in `locales/{language}/`
 - **File Structure**:
   - `nodeDefs.json` - Node display names, descriptions, and input/output labels
-  - `main.json` - General UI text and messages
+  - `main.json` - **NEW**: Settings categories, buttons, messages, and menu items
   - `settings.json` - Settings panel text and tooltips
+
+### New Menu & Settings Features
+- **Settings Categories**: Organized settings with internationalized category names
+- **Setting Names & Tooltips**: Full translation support for all setting text
+- **Button Labels**: Internationalized UI buttons (Apply, Cancel, Reset, etc.)
+- **Status Messages**: Localized success/error messages
 
 ## Installation
 
@@ -70,9 +76,10 @@ ComfyUI-i18n-demo/
 
 ### Accessing Settings
 1. Open ComfyUI Settings (gear icon)
-2. Navigate to "I18n Demo" category
+2. Navigate to **"I18n Demo"** category (name changes based on language)
 3. Adjust settings as needed
 4. Changes are saved automatically
+5. **Language Support**: Setting names and tooltips automatically change with UI language
 
 ## For Developers
 
@@ -84,15 +91,15 @@ This package serves as a clean template for creating ComfyUI nodes with internat
 4. **Add more languages** by creating new language folders
 5. **Customize settings** in the JavaScript file
 
-## Key Differences from Full Demo Package
+## Key Features
 
-This cleaned version focuses solely on i18n functionality:
-- ✅ Internationalization support (English/Chinese)
-- ✅ Settings system with i18n
-- ✅ Single focused text processing node
-- ❌ Style injection and CSS themes removed
-- ❌ Multiple demo nodes removed
-- ❌ Complex styling features removed
+This updated version demonstrates modern ComfyUI i18n functionality:
+- ✅ **Menu Internationalization** - Settings categories with localized names
+- ✅ **Complete Settings i18n** - Names, tooltips, and categories all translate
+- ✅ **Node Interface i18n** - Full node translation support
+- ✅ **Proper Translation Structure** - Following ComfyUI's latest i18n standards
+- ✅ **Button & Message i18n** - UI elements with translation support
+- ✅ **Single focused text processing node**
 
 ## No Dependencies
 

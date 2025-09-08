@@ -1,34 +1,15 @@
 {
-  "i18nDemo": {
-    "title": "ComfyUI 国际化演示",
-    "version": "1.0.0",
-    "description": "用于演示 ComfyUI 自定义节点国际化 (i18n) 支持",
-    "categories": {
-      "i18n": "国际化演示"
+  "settingsCategories": {
+    "I18nDemo": "国际化演示"
+  },
+  "settings": {
+    "Comfy_Frontend_I18nDemo_EnableDebugMode": {
+      "name": "启用调试模式",
+      "tooltip": "在控制台中显示国际化演示节点的调试信息"
     },
-    "messages": {
-      "nodeLoaded": "国际化演示节点加载成功",
-      "processingText": "正在处理文本..."
-    },
-    "settings": {
-      "title": "国际化演示设置",
-      "description": "配置国际化演示节点行为和偏好设置",
-      "enableDebugMode": "启用调试模式",
-      "enableDebugModeTooltip": "在控制台显示国际化演示节点的调试信息",
-      "defaultTextOperation": "默认文本操作",
-      "defaultTextOperationTooltip": "文本处理器节点的默认操作",
-      "options": {
-        "textOperations": {
-          "uppercase": "大写",
-          "lowercase": "小写",
-          "reverse": "反转",
-          "add_prefix": "添加前缀"
-        },
-        "languages": {
-          "en": "英文",
-          "zh": "中文"
-        }
-      }
+    "Comfy_Frontend_I18nDemo_DefaultTextOperation": {
+      "name": "默认文本操作",
+      "tooltip": "文本处理器节点的默认操作"
     }
   }
 }

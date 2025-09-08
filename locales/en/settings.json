@@ -1,18 +1,16 @@
 {
-  "I18nDemo.Settings": {
-    "name": "I18n Demo Settings",
-    "tooltip": "Configure i18n demo node behavior"
-  },
-  "I18nDemo.EnableDebugMode": {
+  "Comfy_Frontend_I18nDemo_EnableDebugMode": {
     "name": "Enable Debug Mode",
-    "tooltip": "Show debug information in console"
+    "tooltip": "Show debug information in console for i18n demo nodes"
   },
-  "I18nDemo.DefaultTextOperation": {
+  "Comfy_Frontend_I18nDemo_DefaultTextOperation": {
     "name": "Default Text Operation",
-    "tooltip": "Default operation for text processor node"
-  },
-  "I18nDemo.Language": {
-    "name": "I18n Demo Language",
-    "tooltip": "Language for i18n demo node messages"
+    "tooltip": "Default operation for text processor node",
+    "options": {
+      "uppercase": "Uppercase",
+      "lowercase": "Lowercase",
+      "reverse": "Reverse",
+      "add_prefix": "Add Prefix"
+    }
   }
 }
