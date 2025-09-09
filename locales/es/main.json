@@ -1,7 +1,7 @@
 {
   "settingsCategories": {
-    "I18nDemo": "I18n Demo",
-    "DebugMode": "Debug Mode",
-    "DefaultTextOperation": "Default Text Operation"
+    "I18nDemo": "Demostración de I18n",
+    "DebugMode": "Modo de depuración",
+    "DefaultTextOperation": "Operación de texto predeterminada"
   }
 }
