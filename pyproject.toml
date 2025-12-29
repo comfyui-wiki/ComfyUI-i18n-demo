@@ -1,7 +1,7 @@
 [project]
 name = "i18n-demo"
-description = "Example of COmfyUI Node Localization"
-version = "1.0.0"
+description = "Example of ComfyUI Node Localization"
+version = "1.0.1"
 license = {file = "LICENSE"} 
 # classifiers = [
 #     # For OS-independent nodes (works on all operating systems)
